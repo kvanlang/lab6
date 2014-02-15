@@ -48,7 +48,7 @@ function addProject(result) {
 function randomizeColors(e) {
 	console.log("User clicked on color button");
 
-	$.get("/palette/")
+	$.get("/palette/").html();
 
 
 }
